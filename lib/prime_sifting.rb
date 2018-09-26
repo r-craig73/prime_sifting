@@ -19,7 +19,7 @@ class Prime
       prime = 1
       loop do
         prime += 1
-        if prime > (last_number - 1)
+        if prime > last_number
           break
         end
         removal = numbers.reject { |i| (i != prime) & (i % prime).zero? }
