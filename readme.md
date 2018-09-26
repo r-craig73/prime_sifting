@@ -21,13 +21,33 @@
 4. The method creates an array of prime numbers when a user inputs 4
   * input: number_input = Prime.new(4)
   * output: expect(number_input.prime_sifter).to(eq([2, 3]))
-5. More specs coming soon (9/11 specs are passing)
-
-### Issues
-* When a user inputs a value greater than 10, the method inputs multiples of 3's into the array (9 & 15).
+5. The method creates an array of prime number2 when a user inputs 5
+  * input: number_input = Prime.new(5)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3]))
+6. The method creates an array of prime numbers when a user inputs 6
+  * input: number_input = Prime.new(6)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5]))
+7. The method creates an array of prime numbers when a user inputs 7
+  * input: number_input = Prime.new(7)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5]))
+8. The method creates an array of prime numbers when a user inputs 8
+  * input: number_input = Prime.new(8)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5, 7]))
+9. The method creates an array of prime numbers when a user inputs 9
+  * input: number_input = Prime.new(9)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5, 7]))
+10. The method creates an array of prime numbers when a user inputs 10
+  * input: number_input = Prime.new(10)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5, 7]))
+11. The method creates an array of prime numbers when a user inputs 18
+  * input: number_input = Prime.new(18)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5, 7, 11, 13, 17]))
+12. The method creates a looong array of prime numbers when a user inputs 100
+  * input: number_input = Prime.new(100)
+  * output: expect(number_input.prime_sifter).to(eq([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]))
 
 ### Rspec results
-![alt-text](img/rspec-screenshot.png "Screenshot Rspec results, coming soon")
+![alt-text](img/rspec-screenshot.png "Screenshot, rspec 12 out of 12 specs are passing")
 
 ## Setup/Installation Requirements
 ### Clone repository.
